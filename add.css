@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(./backimg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #3b94e7, #94bde2);
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 100px;
+    width: 300px;
+}
+
+.navbar a {
+    color:black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+    background-color: rgb(13, 235, 235);
+    margin-top: 20px;
+}
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #e6b800;
+}
+
+/* Models Section */
+.models {
+    padding: 40px 20px;
+    text-align: center;
+}
+/* ...................................heading............................ */
+h1{
+    background-color: #64048a;
+}
+.models h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.model-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.model-card {
+    background: rgb(213, 253, 120);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 15px;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+.model-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.model-card:hover {
+    transform: translateY(-5px);
+}
+.model-card h3 {
+    margin-top: 15px;
+    color: #e96106;
+}
+form{
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    background-image: url(./login.jpg);
+    margin-left: 20px;
+
+}
+
+iframe{
+    height: 350px;
+    width: 300px;
+    margin-bottom:00px;
+    
+}
+.dealers{
+    border: 3px solid black;
+    height: 100px;
+    width: 300px;
+}
+.madurai{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact {
+    font-size:larger;
+    text-decoration: dashed;
+    
+}
+
+
